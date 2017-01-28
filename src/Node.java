@@ -15,4 +15,8 @@ public class Node {
 	public void setNext(Node nextNode){
 		next = nextNode;
 	}
+	
+	public String getValue(){
+		return value;
+	}
 }
